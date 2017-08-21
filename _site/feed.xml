@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog</title>
+    <description>Personal website</description>
+    <link>http://localhost:4000</link>
+    
+      
+        <item>
+          <title>Resume</title>
+          <description>&lt;h1 style=&quot;text-align:center&quot;&gt;Charles Thomas Stocky&lt;/h1&gt;
+&lt;h3 style=&quot;text-align:center; margin-top:-8px&quot;&gt;5350 Burnet Rd #349&lt;/h3&gt;
+&lt;h3 style=&quot;text-align:center; margin-top:-8px&quot;&gt;Austin, TX 78756&lt;/h3&gt;
+&lt;h3 style=&quot;text-align:center; margin-top:-8px&quot;&gt;2287318584&lt;/h3&gt;
+&lt;h3 style=&quot;text-align:center; margin-top:-8px&quot;&gt;charles.stocky@gmail.com&lt;/h3&gt;
+&lt;h3 style=&quot;text-align:center; margin-top:-8px;&quot;&gt;&lt;a href=&quot;https://github.com/CharlesStocky&quot;&gt;github&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h1&gt;SKILLS&lt;/h1&gt;
+
+&lt;p&gt;&lt;b&gt;Programming&lt;/b&gt; – Experienced with Javascript and object-oriented patterns, Node.js and
+asynchronous concepts, as well as React’s declaractive programming paradigm.
+Experienced in Python and in building user interfaces using HTML/CSS/CGI.
+Experienced with SQL and noSQL databases.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;General Computer Skills&lt;/b&gt; – Very familiar with Windows, MacOS, and Linux (Kali,
+Ubuntu, and Debian).&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Communication&lt;/b&gt; – Able to write and speak clearly, skilled at using clear and concise
+language to convey pertinent information to others.&lt;/p&gt;
+
+&lt;h1&gt;EDUCATION&lt;/h1&gt;
+&lt;p&gt;&lt;b&gt;CodeAcademy&lt;/b&gt; - Python, HTML/CSS, Javascript. &lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;W3Schools&lt;/b&gt; - HTML/CSS, Javascript, Nodejs. Used tutorials as referential material to further
+my understanding of concepts that I later applied to projects using JS/NodeJS/MongoDB/Mysql.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Practical Javascript&lt;/b&gt; - Tools. Effectively learned how to use and interpret dev-
+tools (Chrome, Firefox, Dragonfly) as well as code pre-planning and refactoring
+through building a Todo-list web application.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Eloquent Javascript&lt;/b&gt; - Used to gain more in-depth knowledge of Javascript and
+general code-related theory.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Freecodecamp algorithm challenges&lt;/b&gt; - Used to practice creation of algorithms for
+anything from string manipulation to ordering numbers in a specific manner. They’re
+bite sized challenges that are great for initiating “developer-thinkinging”
+quickly. The solutions to some of the challenges are on my Github account.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Learnyounode&lt;/b&gt; - Used to gain understanding of NodeJS. Including handling HTTP’s request-response protocol within Node, managing I/O, the practice of making JS apps modular, as
+well as furthering my understanding of developing within an asynchronous environment.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;ExpressWorks&lt;/b&gt; - Used to learn routing in NodeJS via Express, how to implement template
+engines (pug), and the parsing of JSON data.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Reacttraining.com&lt;/b&gt; – Used to gain foundational knowledge of React, React-Router, as
+well as Webpack through the building of a “Github Battle” website which compares two
+Github accounts and returns the ‘winner’ determined by an algorithm.
+Most of my knowledge of React has been as a result of researching when encountering
+scenarios I’m not familiar with. Irc channels have been one of the best resources,
+Stackoverflow has also been great.&lt;/p&gt;
+
+&lt;h1&gt;TOOLS&lt;/h1&gt;
+&lt;p&gt;Text editors - Sublime, Atom, VIM(editor of choice.)&lt;/p&gt;
+
+&lt;p&gt;Git - Version control&lt;/p&gt;
+
+&lt;p&gt;Chrome dev-tools/React-dev-tools - Front-end debugging&lt;/p&gt;
+
+&lt;p&gt;Postman - API debugging&lt;/p&gt;
+
+&lt;p&gt;Docker - Isolated environment/dependencies management&lt;/p&gt;
+
+&lt;h1&gt;EXPERIENCE&lt;/h1&gt;
+
+&lt;p&gt;&lt;b&gt;Javascript Projects&lt;/b&gt;
+Aug 2016 – present&lt;/p&gt;
+
+&lt;p&gt;I built three games using vanilla Javascript. The first was pick-a-random-
+number; it solidified concepts learned from online courses and introduced me to the
+concepts necessary for proper error handling of user input.&lt;/p&gt;
+
+&lt;p&gt;The second was Hangman; it further solidified my understanding of programming
+concepts and introduced me to new string handling techniques. I started this
+application as console-only; several iterations later I translated it into a
+dynamic HTML page.&lt;/p&gt;
+
+&lt;p&gt;The third was Tic-Tac-Toe; it deepened my understanding of the DOM techniques I
+learned from building Hangman and introduced me to event handlers using pure
+Javascript.&lt;/p&gt;
+
+&lt;p&gt;I’m close to deploying my first website. It will be a pizza
+coupon finder that is filterable by zip code. I started the process of making the website by planning what I wanted, the course
+of action, as well as building an intial HTML/CSS homepage. I began by building the api for the website. Using Nodejs/Express to render the inital static HTML, I route requests with React-Router. My Node/Express server also serves as an endpoint for AJAX requests from the front-end, which will serve data (coupon codes) upon valid zip code entry. I’ve used the Google-Maps api to convert zip codes into city names, which will match to a document with a corresponding city name. If no city is found, my DB api will also match to state-wide coupon codes (determined by location properties contained within twitter accounts, retrieved via the Twitter API.)&lt;/p&gt;
+
+&lt;p&gt;I then began to flesh out my DB API. Using the Twitter as a source of data, I match Tweets containing keywords using an algorithm within the API. I plan on making a more in-depth post about this process when I’ve deployed the website.&lt;/p&gt;
+
+&lt;p&gt;I’ve since moved on to finishing the front-end, which uses React. After entry of a zip code from a home page form, I send an AJAX request to my Node/Express DB API endpoint based on the user-entered data. Most of the code for the website’s API is available on my &lt;a href=&quot;https://github.com/CharlesStocky/coupizza.git&quot;&gt;Github&lt;/a&gt;.&lt;/p&gt;
+
+</description>
+          <pubDate>2017-08-21T00:00:00+08:00</pubDate>
+          <link>http://localhost:4000/Resume</link>
+          <guid isPermaLink="true">http://localhost:4000/Resume</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>First Post</title>
+          <description>&lt;p&gt;I’ve made this site to host my resume as well as document the process of building my first website (coupizza.com) and perhaps future projects I contribute to.&lt;/p&gt;
+
+&lt;p&gt;Coupizza is a pizza coupon finder that’s filterable by zip code. Most larger coupon-finders pile all coupons from a merchant in one place, which makes finding location-based coupons a pain. Pizza is awesome, learning development is awesome, so I decided to jump on what I saw as a niche that wasn’t being filled while teaching myself programming.&lt;/p&gt;
+
+&lt;p&gt;I decided coupizza would be rendered server-side, as the benefits are real. After around a month of trying to figure out how to make SSR work, I realized I was at the bleeding edge of a technology. While this excited me, and still does, I understood that I was in over my head. It fulfilled my inclination towards doing things that are challenging, but it was seriously delaying the development of the website. I decided to go back to what I was more familiar with: client-side rendering with React(RRouter V4) and Nodejs.&lt;/p&gt;
+
+&lt;p&gt;That was around a month ago, and since then development has advanced at much better pace. After finishing the scaffolding of the website, I began to fleshout the DB API. This was the most enjoyable part of the build up to this point. Without a lack of knowledge of a library to hinder me, I was “thinking like a developer” more often and for longer streches of time. That’s not to say that I don’t enjoy learning, because I enjoy it a lot, but as a beginner looking at the monolith that is learning development, it can feel as if the moments of creativity will be few and far between.&lt;/p&gt;
+
+&lt;p&gt;At this point I’m populating my DB (Account handles), and finishing the CSS. Once this is done I plan on deploying coupizza.&lt;/p&gt;
+</description>
+          <pubDate>2017-08-21T00:00:00+08:00</pubDate>
+          <link>http://localhost:4000/First-post</link>
+          <guid isPermaLink="true">http://localhost:4000/First-post</guid>
+        </item>
+      
+    
+  </channel>
+</rss>
