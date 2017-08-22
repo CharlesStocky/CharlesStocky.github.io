@@ -42,9 +42,8 @@ through building a Todo-list web application.&lt;/p&gt;
 general code-related theory.&lt;/p&gt;
 
 &lt;p&gt;&lt;b&gt;Freecodecamp algorithm challenges&lt;/b&gt; - Used to practice creation of algorithms for
-anything from string manipulation to ordering numbers in a specific manner. They’re
-bite sized challenges that are great for initiating “developer-thinkinging”
-quickly. The solutions to some of the challenges are on my Github account.&lt;/p&gt;
+anything from string manipulation to ordering numbers in a specific manner. 
+The solutions to some of the challenges are on my &lt;a href=&quot;https://github.com/CharlesStocky/Free-Code-Camp-algorithm-solutions&quot;&gt;Github&lt;/a&gt; account.&lt;/p&gt;
 
 &lt;p&gt;&lt;b&gt;Learnyounode&lt;/b&gt; - Used to gain understanding of NodeJS. Including handling HTTP’s request-response protocol within Node, managing I/O, the practice of making JS apps modular, as
 well as furthering my understanding of developing within an asynchronous environment.&lt;/p&gt;
@@ -70,31 +69,29 @@ Stackoverflow has also been great.&lt;/p&gt;
 
 &lt;p&gt;Docker - Isolated environment/dependencies management&lt;/p&gt;
 
+&lt;p&gt;Webpack - Code bundling&lt;/p&gt;
+
 &lt;h1&gt;EXPERIENCE&lt;/h1&gt;
 
 &lt;p&gt;&lt;b&gt;Javascript Projects&lt;/b&gt;
 Aug 2016 – present&lt;/p&gt;
 
-&lt;p&gt;I built three games using vanilla Javascript. The first was pick-a-random-
-number; it solidified concepts learned from online courses and introduced me to the
-concepts necessary for proper error handling of user input.&lt;/p&gt;
+&lt;p&gt;Hangman &lt;br /&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;further solidified my understanding of Javascript and string handling techniques.&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;The second was Hangman; it further solidified my understanding of programming
-concepts and introduced me to new string handling techniques. I started this
-application as console-only; several iterations later I translated it into a
-dynamic HTML page.&lt;/p&gt;
-
-&lt;p&gt;The third was Tic-Tac-Toe; it deepened my understanding of the DOM techniques I
+&lt;p&gt;Tic-Tac-Toe &lt;br /&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;deepened my understanding of the DOM techniques I
 learned from building Hangman and introduced me to event handlers using pure
-Javascript.&lt;/p&gt;
+Javascript.&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;I’m close to deploying my first website. It will be a pizza
-coupon finder that is filterable by zip code. I started the process of making the website by planning what I wanted, the course
-of action, as well as building an intial HTML/CSS homepage. I began by building the api for the website. Using Nodejs/Express to render the inital static HTML, I route requests with React-Router. My Node/Express server also serves as an endpoint for AJAX requests from the front-end, which will serve data (coupon codes) upon valid zip code entry. I’ve used the Google-Maps api to convert zip codes into city names, which will match to a document with a corresponding city name. If no city is found, my DB api will also match to state-wide coupon codes (determined by location properties contained within twitter accounts, retrieved via the Twitter API.)&lt;/p&gt;
-
-&lt;p&gt;I then began to flesh out my DB API. Using the Twitter as a source of data, I match Tweets containing keywords using an algorithm within the API. I plan on making a more in-depth post about this process when I’ve deployed the website.&lt;/p&gt;
-
-&lt;p&gt;I’ve since moved on to finishing the front-end, which uses React. After entry of a zip code from a home page form, I send an AJAX request to my Node/Express DB API endpoint based on the user-entered data. Most of the code for the website’s API is available on my &lt;a href=&quot;https://github.com/CharlesStocky/coupizza.git&quot;&gt;Github&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Coupizza &lt;br /&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;I’m close to deploying my first website. Beyond learning how to implement Node/React in a “real-world setting”, this project has solidified algorithmic concepts learned from earlier projects as well as intoduced me to DigitalOcean’s Droplets as a means of hosting. The website’s API can be found &lt;a href=&quot;https://github.com/CharlesStocky/coupizza.git&quot;&gt;here&lt;/a&gt;. I plan on writing a more in-depth blog post surrounding the DB API once the website is deployed.&lt;/li&gt;
+&lt;/ul&gt;
 
 </description>
           <pubDate>2017-08-21T00:00:00+08:00</pubDate>
