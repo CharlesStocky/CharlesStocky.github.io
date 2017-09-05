@@ -1,0 +1,556 @@
+@media screen and (min-width:1241px){
+  html, body {
+    right: 0px; 
+    left: 0px; 
+    top: 0px; 
+    bottom: 0px; 
+    margin: 0px; 
+  }
+
+  .header{
+    background-color: #F5F6F8; 
+    height: 12%;  
+    width: 100%; 
+    display: inline-block;  
+    font: large 'Open Sans semibold'; 
+    color: #666666;  
+    text-align: center;
+  } 
+
+  .nav {
+    list-style-type: none;  
+  }
+
+  .vpn {
+    margin-left: -7.5%; 
+    margin-top: .5%; 
+    position: absolute; 
+  }
+
+  #navLi {
+    display: inline-block; 
+    margin-left: 12%;
+    margin-top: .3%;
+    margin-right: 3%; 
+    word-spacing: 4em; 
+    width: 55%; 
+  }
+
+  .firstLi {
+    display: inline-block; 
+    word-spacing: 3em; 
+  }
+
+  span {
+    word-spacing: 0;  
+  }
+
+  #tryButton {
+    margin-right: -8%;  
+    border: none; 
+    margin-left: -2%;
+    background-color: orange;
+    height: 53%; 
+    width: 8%; 
+    text-align: center; 
+    border-radius: 5.5%; 
+    font-family: 'Open Sans semibold'; 
+    color: white; 
+  }
+
+  div {
+  }
+
+  #titleOnePara {
+    margin-top: 6%; 
+    margin-left: 11%;
+    padding-bottom: 5%;
+  }
+
+  .cloudSerpLogo {
+    float: right;   
+    margin-right: 14%; 
+    max-height: 45%; 
+    margin-top: .01%; 
+    margin-left: 5%; 
+  }
+
+  #titleone {
+    font-size: 30px; 
+    font-family: 'Open Sans Light';  
+    color: #333333; 
+  }
+
+  .titleonepara {
+    line-height: 175%;
+    font-family: 'Open Sans'; 
+    font-size: 18px; 
+    color: #666666;
+    text-align: left; 
+  }
+
+  #perksLi {
+    width: 85%; 
+    padding-bottom: 8%;
+    margin-left: 2%;
+  }
+
+  .perks{ 
+    display: inline-block;  
+    list-style-type: none; 
+    width: 99%; 
+  } 
+
+  #firstPerk {
+    display: inline-block; 
+    padding-left: 7%; 
+    line-height: 175%;
+    padding-right: 6%; 
+    margin-top: 5.5%;
+    font-family: 'Open Sans'; 
+    font-size: 18px; 
+    color: #333333;
+    text-align: left;
+    vertical-align: top; 
+  }
+
+  .perksPara1{
+  }
+
+  .para {
+    font-size: 16px;  
+  }
+
+  #secondPerk {
+    display: inline-block;  
+    line-height: 175%; 
+    font-family: 'Open Sans'; 
+    font-size: 18px; 
+    padding-right: 7%; 
+    color: #333333;
+    text-align: left;
+    padding-top: 5%;
+  } 
+
+  #thirdPerk {
+    display: inline-block;  
+    position: relative; 
+    line-height: 175%;
+    font-family: 'Open Sans'; 
+    font-size: 18px; 
+    color: #333333; 
+    text-align: left; 
+  }
+
+  #lineBreak {
+    height: .15%;  
+    background-color: #D8D8D8; 
+    margin-left: 5%; ;
+    width: 93%; 
+    margin-top: 10%;  
+  }
+
+  #secure {
+    margin-top: -9%; 
+  } 
+
+  #picContainer{
+    float: right; 
+    margin-right: 14%; 
+    margin-left: 5%; 
+  } 
+
+  #lock {
+    max-height: 45%;  
+  }
+
+  #secureTitle {
+    font-family: 'Open Sans Light';  
+    font-size: 30px; 
+    color: #333333;
+    margin-top: 10%; 
+    margin-left: 11%;
+  }
+
+  #securePara {
+    font-family: 'Open Sans';  
+    font-size: 18px;  
+    color: #666666; 
+    line-height: 170%; 
+    margin-left: 11%; 
+    font-family: 'Open Sans'; 
+  }
+
+  #secureP {
+    font-family: 'Open Sans'; 
+    font-size: 16px; 
+    color: #666666;  
+    list-style-position: inside; 
+    text-align: left;
+    line-height: 270%; 
+    margin-left: 10%; 
+  }
+
+  #lineBreak2 {
+    height: .15%;
+    width: 85%;
+    background-color: #D8D8D8; 
+    margin-left: auto; 
+    margin-right: auto;
+    margin-top: 10%;
+  }
+
+  .advantages {
+    margin-top: 8%; 
+  }
+
+  #advantagesPic {
+    float: right;  
+    max-height: 45%; 
+    margin-right: 14%;
+    margin-left: 5%; 
+  }
+
+  .advantageText{
+  }
+
+  .advanTxtHeader {
+    font-size: 30px; 
+    font-family: 'Open Sans Light';  
+    color: #333333; 
+    margin-left: 11%;  
+  }
+
+  .advanTxtPara {
+    padding-left: 11%; 
+    line-height: 175%;
+    padding-right: 7%; 
+    font-family: 'Open Sans'; 
+    font-size: 18px; 
+    color: #666666;
+    text-align: left;
+  }
+
+  .checkLi {
+    list-style-position: inside; 
+    list-style-type: none; 
+    list-style-image: url('./assets/checkmark.svg'); 
+    font-family: 'Open Sans'; 
+    line-height: 270%; 
+    font-size: 16px;
+    color: #666666; 
+    margin-left: 4.2%; 
+  }
+
+  .footer {
+    background-color: #3A3D40; 
+    width: 100%; 
+    padding-top: 4%;
+    margin-top: 8%; 
+    height: 15%; 
+    text-align: center; 
+  }
+
+  .footLink {
+    font-family: 'Open Sans';  
+    font-weight: bold; 
+    font-size: large; 
+    color: #F5F6F8; 
+    display: inline-block; 
+    margin-right: 7%;
+  }
+
+  #footNavContainer {
+    margin-right: 14%; 
+  }
+
+  #socialContainer{
+    top: 5px;
+    position: relative; 
+    display: inline-block; 
+  }
+
+  #socailcontainer img {
+    padding-left: 10px;  
+  }
+}
+
+
+/*##############################################################################*/
+
+
+
+@media screen and (max-width: 1240px){
+  html, body {
+    right: 0px; 
+    left: 0px; 
+    top: 0px; 
+    bottom: 0px; 
+    margin: 0px; 
+    padding: 0px; 
+  }
+
+  .vpn{
+    height: 30%; 
+    width: 50%; 
+    margin-bottom: 4%;
+    margin-left: -4%;
+  }
+
+  .header{
+    padding-top: 7%; 
+    background-color: #F5F6F8; 
+    height: 20%;  
+    padding-bottom: 2%; 
+    text-align: center;
+  }
+
+  .nav {
+    list-style: none;  
+    display: inline;  
+  }
+
+  .firstLi{
+    display: inline-block;  
+    font: 18px 'Open Sans semibold';  
+    margin: 2%; 
+    text-align: center; 
+    color: #666666;
+  }
+
+  #tryButton {
+    display: none; 
+  } 
+
+  .cloudSerpLogo{
+    height: 30%;  
+    padding-bottom: 2%; 
+  }
+
+  #titleOnePara {
+    margin-top: 9%; 
+    text-align: center; 
+  }
+
+  #titleone {
+    margin-top: 10%;
+    font-size: 30px; 
+    font-family: 'Open Sans Light';  
+    color: #333333; 
+  }
+
+  .titleonepara {
+    padding-left: 7%; 
+    line-height: 175%;
+    padding-right: 7%; 
+    font-family: 'Open Sans'; 
+    font-size: 18px; 
+    color: #666666;
+    text-align: center;
+  }
+
+  #perksLi  {
+    max-width: 1500px; 
+    padding-left: auto; 
+    padding-right: 5%; 
+  }
+
+  br {
+    display: none;  
+  }
+
+  .perks {
+    list-style: none;  
+  }
+
+  #firstPerk {
+    width: 90%; 
+    padding-left: 10%; 
+    margin-top:8%
+  }
+
+  #secondPerk {
+    width: 90%; 
+    padding-left: 9%; 
+    margin-top:8%;
+  }
+
+  #thirdPerk {
+    width: 90%;  
+    padding-left: 9%;
+    margin-top: 8%; 
+    text-align: left; 
+  }
+
+  .perk {
+    display: inline-block; 
+  }
+
+  .perksPic {
+    margin-bottom: -14%; 
+    width: 10%; 
+  }
+
+  .perksPicMar {
+    margin-bottom: -15%; 
+    width: 10%; 
+  }
+  
+  .perksParaHeader {
+    font-family: 'Open Sans';  
+    font: 16px; 
+    font-weight: bold; 
+    color: #333333;
+  }
+
+  .perksPara1 {
+    padding-left: 20%; 
+  }
+
+  .perksPara2 {
+    padding-left: 20%;  
+  }
+
+  .perksPara3 {
+    padding-left: 20%;  
+  }
+
+  .para {
+    font-family: 'Open Sans';   
+    font: 16px; 
+    color: #666666;
+  }
+
+  #lineBreak {
+    height: .15%;  
+    background-color: #D8D8D8; 
+    width: 85%;
+    margin-left: 7%; 
+    margin-top: 10%; 
+  }
+
+  #secure {
+  }
+
+  #picContainer {
+    text-align: center; 
+  }
+
+  img#lock {
+    height: 30%;  
+    margin-top: 10%;  
+  }
+
+  #secureTitle {
+    font-family: 'Open Sans Light';  
+    font-size: 30px; 
+    color: #333333;
+    margin-top: 10%; 
+    text-align: center;
+  }
+
+  #securePara {
+    font-family: 'Open Sans';  
+    font-size: 18px;  
+    color: #666666; 
+    line-height: 170%; 
+    margin-left: 6.5%; 
+    margin-right: 6.5%; 
+    text-align: center; 
+  }
+
+  #secureAccessList {
+  }
+
+  #secureContainer {
+    text-align: center; 
+  }
+
+  #secureP {
+    font-family: 'Open Sans'; 
+    font-size: 16px; 
+    color: #666666;  
+    list-style-position: inside; 
+    text-align: center;
+    line-height: 270%; 
+  }
+
+  #lineBreak2 {
+    height: .15%;
+    width: 85%;
+    background-color: #D8D8D8; 
+    margin-left: auto; 
+    margin-right: auto;
+    margin-top: 10%;
+  }
+
+  .advantages {
+    text-align: center;  
+    margin-bottom: 8%; 
+  }
+
+  #advantagesPic{
+    height: 30%;  
+    margin-top: 10%;
+  }
+
+  .advantageText {
+    text-align: center;   
+  }
+
+  .advanTxtHeader {
+    margin-top: 10%;
+    font-size: 30px; 
+    font-family: 'Open Sans Light';  
+    color: #333333; 
+  }
+
+  .advanTxtPara {
+    padding-left: 7%; 
+    line-height: 175%;
+    padding-right: 7%; 
+    font-family: 'Open Sans'; 
+    font-size: 18px; 
+    color: #666666;
+    text-align: center;
+  }
+
+  .checkLi li {
+    list-style-position: inside; 
+    list-style-type: none; 
+    list-style-image: url('./assets/checkmark.svg'); 
+    font-family: 'Open Sans'; 
+    line-height: 270%; 
+    font-size: 16px;
+    color: #666666; 
+    
+  }
+
+  .footer {
+    background-color: #3A3D40; 
+    width: 100%; 
+    padding-top: 4%; 
+    text-align: center; 
+    height: 55%;
+  }
+
+  #footNavContainer {
+  }
+
+  .footNav{
+    letter-spacing: 2px; 
+    line-height: 280%;
+    font-family: 'Open Sans';  
+    font-weight: bold; 
+    font-size: 18px; 
+    color: #F5F6F8;
+    list-style-type: none; 
+  }
+
+  .socialContainer {
+  }
+
+  #socialList {
+    list-style-type: none;  
+  }
+}

@@ -7,6 +7,28 @@
     
       
         <item>
+          <title>Example Html Css</title>
+          <description>
+</description>
+          <pubDate>2017-09-05T00:00:00+08:00</pubDate>
+          <link>http://localhost:4000/Example-HTML-CSS</link>
+          <guid isPermaLink="true">http://localhost:4000/Example-HTML-CSS</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Coupizza Update</title>
+          <description>&lt;p&gt;I’ve decided to expand my database API to accept Facebook posts from merchant accounts as well as Twitter timelines. The problem with using Twitter as the main source of data for this scenario is that user accounts are fairly inconsistent in the data they provide. For instance location data is very unpredictable. I’ve found Facebook’s GraphAPI data to be much more consistent, though it may take stricter parsing algorithms to handle the sheer amount of data that the FB API provides, but this definitely seems doable with a few tweaks to the algorithms I’m currently using with the Twitter API.&lt;/p&gt;
+</description>
+          <pubDate>2017-08-24T00:00:00+08:00</pubDate>
+          <link>http://localhost:4000/Coupizza-update</link>
+          <guid isPermaLink="true">http://localhost:4000/Coupizza-update</guid>
+        </item>
+      
+    
+      
+        <item>
           <title>Resume</title>
           <description>&lt;h1 style=&quot;text-align:center&quot;&gt;Charles Thomas Stocky&lt;/h1&gt;
 &lt;h3 style=&quot;text-align:center; margin-top:-8px&quot;&gt;5350 Burnet Rd #349&lt;/h3&gt;
@@ -90,7 +112,7 @@ Javascript.&lt;/li&gt;
 
 &lt;p&gt;Coupizza &lt;br /&gt;&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;I’m close to deploying my first website. Beyond learning how to implement Node/React in a “real-world setting”, this project has solidified algorithmic concepts learned from earlier projects as well as intoduced me to DigitalOcean’s Droplets as a means of hosting. The website’s API can be found &lt;a href=&quot;https://github.com/CharlesStocky/coupizza.git&quot;&gt;here&lt;/a&gt;. I plan on writing a more in-depth blog post surrounding the DB API once the website is deployed.&lt;/li&gt;
+  &lt;li&gt;I’m close to deploying my first website. Beyond learning how to implement Node/React in a “real-world setting”, this project has solidified algorithmic concepts learned from earlier projects as well as intoduced me to DigitalOcean’s Droplets as a means of hosting. The website’s API code can be found &lt;a href=&quot;https://github.com/CharlesStocky/coupizza.git&quot;&gt;here&lt;/a&gt;. I plan on writing a more in-depth blog post surrounding the DB API once the website is deployed.&lt;/li&gt;
 &lt;/ul&gt;
 
 </description>
