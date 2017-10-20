@@ -2,6 +2,8 @@ I've made this post to explain in detail how I went about coding the API for Cou
 
 ```javascript 
 
-;laksjd;flkajs;dlfkj 
+function(){
+  1 + 1
+}
 
 ```
