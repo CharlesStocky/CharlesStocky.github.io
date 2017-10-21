@@ -3,54 +3,55 @@ I've made this post to explain in detail how I went about coding the API for Cou
 ```javascript 
 let getCodes = (posts, locale) =>{
   if(posts.created_time.includes(currentDateStr)){
-    if(posts.message){
-      console.log(posts.message)
+```
+The getCodes function accepts objects from the FB Graph 'feed' API. There seems to be no rhyme or reason to the date associated with post objects, so my first objective was to create a way of formatting/producing a date that matched with the formatting of the FB api to get posts, and thus coupon codes, posted within a given time period.       
+
+```javascript
+let d = new Date;
+let currentMonth = d.getMonth() + 1 ;
+let currentDate = d.getDate();
+let currentYear = d.getFullYear();
+let currentDateObj = {
+  month: currentMonth,
+  day: currentDate,
+  year: currentYear
+}
+
+let dateFormatter = (object) => { //formats date to match the formatting of facebook dates
+  if(object.month < 10){
+    object.month = '0' + object.month;
+  }
+  if(object.day < 10){
+    object.day = '0' + object.day;
+  }
+  let formattedDate = object.year + '-' + object.month + '-' + object.day
+  return formattedDate
+}
+```
+This code is the date formatter/getter for the coupon parsing. Nothing too eventful, the FB API places zeroes in front of the number associated with a month/date that falls below 10 , so it adds a zero if necesary and place a dash between the the pieces of the date string. From here, the meat of the API follows.     
+
+```javascript
+   console.log(posts.message)
       if(posts.message.toLowerCase().match(/code/)){
-//Customer appreciation day 25% off regular menu prices. Use promo code Wayne25
         let indxOfCodeStart = posts.message.toLowerCase().indexOf('code')
         let promoSlice = posts.message.slice(indxOfCodeStart + 4)
-        if(promoSlice.match(/[A-Z\d]{3,}/)){
-          let promoCode = promoSlice.match(/[A-Z\d]{3,}/)[0]
-          if(promoCode === ''){
-            return false;
-          }
-          let promoObj = {
-            promoCode: promoCode,
-            promoLocation: locale
-          }
-          console.log(promoObj)
-          return promoObj
-        }else{
-          let promoCode = posts.message.slice(indxOfCodeStart + 5) //if the code isn't capitalized, match whatever comes after the string "code"
-          console.log(promoCode)
-          let promoObj= {
-            promoCode: promoCode,
-            promoLocation: locale
-          }
-          return promoObj
-        }
-      }else if(posts.message.toLowerCase().match(/promo/) && !posts.message.toLowerCase().match(/code/)){ //for matches that only use 'promo'
-        let indxOfPromoStart = posts.message.toLowerCase().indexOf('promo')
-        let promoSlice = posts.message.slice(indxOfPromoStart + 5) //+5 to exclude 'promo' from the slice
-        if(promoSlice.match(/[A-Z\d]{3,}/)[0]){
-          let promoCode = promoSlice.match(/[A-Z\d]{3,}/)[0]
-          if(promoCode === ''){
-            return false;
-          }
-          let promoObj = {
-            promoCode: promoCode,
-            promoLocation: locale
-          }
-          console.log(promoObj)
-          return promoObj
-        }else{
-          let promoCode = promoSlice.slice(indxOfPromoStart)
-        }
-      }
-    }else{
-      console.log(posts)
-      return {'error': "id likely doesn't exist"}
-    }
-  }
-}
+```
+First, it logs the posts' 'message' object property to monitor how well the code is performing its string parsing duties. It checks the posts' message for the string: 'code'. It uses ```str.match()``` instead of ```str.includes()``` to avoid 'matching' to any instance of code, IE 'encoded','decoded', etc. It then places the index of the string: 'code' inside of the ```indxOfCodeStart``` variable. Everything before that isn't needed, so it slices from ```indxOfCodeStart``` (+ 4 to avoid including 'code' in the slice).           
+
+```javascript
+        if(posts.message.toLowerCase().match(/code/)){
+          let indxOfCodeStart = posts.message.toLowerCase().indexOf('code')
+          let promoSlice = posts.message.slice(indxOfCodeStart + 4)
+          if(promoSlice.match(/[A-Z\d]{3,}/)){
+            let promoCode = promoSlice.match(/[A-Z\d]{3,}/)[0]
+            if(promoCode === ''){
+              return false;
+            }
+            let promoObj = {
+              promoCode: promoCode,
+              promoLocation: locale
+            }
+            console.log(promoObj)
+            return promoObj
+
 ```
