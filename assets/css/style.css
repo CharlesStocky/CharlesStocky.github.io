@@ -1,0 +1,8 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+.article{
+  max-width: 700px; 
+}
